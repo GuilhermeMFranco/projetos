@@ -18,3 +18,11 @@ a = 500  #variavel escopo global
 print(f"Imprimindo 'a' no escopo global o resultado será de 500 não 10. Resultado: {a}")
 funcao_externa() #função dentro do escolpo global
 print(f"Imprimindo o 'a' de novo mesmo sendo funcao_externa, o valor será de 500, pois está dentro do escopo global. Resultado: {a} ")
+
+'''O valor 'a' terá o resultado de 10, pois ela está dentro da funcao_externa. Resultado: 10
+O valor 'b' terá o resultado de 20, pois está dentro da função externa. Resultado: 20
+O valor 'a' terá o resultado de 100, pois ela está dentro da funcao_interna . Resultado: 100
+O valor 'b' terá o resultado de 200, pois ela está dentro da funcao_interna . Resultado: 200
+O valor 'c' terá o resultado de 300, pois ela está dentro da funcao_interna . Resultado: 300
+O valor 'a' desta função não será 100, pois esta função está dentro da funcao_externa. resultado10
+Imprimindo o 'a' de novo mesmo sendo funcao_externa, o valor será de 500, pois está dentro do escopo global. Resultado: 500 '''
