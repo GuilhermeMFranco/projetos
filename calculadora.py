@@ -7,12 +7,12 @@ segundo_valor = float(input("Informe o segundo valor: "))
 if operacao == "+":
     resultado = primeiro_valor + segundo_valor
     print(f"Resultado: {resultado}")
-elif operacao == "x":
+elif operacao == "*":
     resultado = primeiro_valor * segundo_valor
-    print("Operação inválida.")
+    print(f"Resultado: {resultado}")
 elif operacao == "-":
     resultado = primeiro_valor - segundo_valor
-    print("Operação inválida.")
+    print(f"Resultado: {resultado}")
 elif operacao == "/":
     resultado = primeiro_valor / segundo_valor
     print(f"Resultado: {resultado}")
