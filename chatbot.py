@@ -34,3 +34,21 @@ def start():
 
 if __name__ == '__main__':
     start()
+
+
+'''Olá! Bem-vindo ao Studio Daiane Franco
+Qual é o seu nome por gentileza? Daiane
+Escolha uma das opções.
+[1] - Nossos serviços  
+[2] - Nossa localização
+[3] - Agendamento      
+[4] - Portfolio        
+1
+
+Daiane Fazemos serviços de Alongamento de unha, Banho em gel, manicure e Pédicure .
+
+Escolha uma das opções.
+[1] - Nossos serviços
+[2] - Nossa localização
+[3] - Agendamento
+[4] - Portfolio'''

@@ -122,3 +122,47 @@ else:
     print("Você errou!")
 
 print("Parabéns! você fez " + str(score) + " pontos.")
+
+'''qual é a capital do Brasil?
+a) São paulo
+b) Rio de Janeirio
+c) Maringá
+d) Brasília
+d
+Você acertou!
+Qual é o rio mais longo do mundo?
+a) Rio Amazonas
+b) Rio Nilo
+c) Rio Danubio
+d) Rio Paraná
+b
+Você acertou!
+Qual é a montanha mais alta do mundo?
+a) Makalu
+b) Pico de Jaragua
+c) Monte Everest
+d) K2
+c
+Você acertou!
+Que deserto é o maior do mundo?
+a) Atacama
+b) Patagônia
+c) Saara
+d) Arizona
+c
+Você acertou!
+Qual é o país conhecido como A Terra dos Cangurus?
+a) Japão
+b) Canada
+c) França
+d) Autrália
+d
+Você acertou!
+Qual é o menor país do mundo?
+a) Japão
+b) Portugal
+c) Vaticano
+d) Israel
+c
+Você acertou!
+Parabéns! você fez 8 pontos.'''
