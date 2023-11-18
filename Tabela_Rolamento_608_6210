@@ -1,0 +1,43 @@
+print("***************MEDIDAS DE ROLAMENTOS 608 - 62010***************")
+print("Medidas deverão ser arredondada.")
+m_externa = int(input("Informe a medida externa: "))
+m_interna = int(input("Informe a medida do furo: "))
+m_largura = int(input("Informe a medida da largura: "))
+
+
+if m_externa == 22 and m_interna == 8 and m_largura == 7:
+    print("Rolamento 608.")
+elif m_externa == 24 and m_interna == 9 and m_largura == 7:
+    print("Rolamento 609.")
+elif m_externa == 26 and m_interna == 9 and m_largura == 8:
+    print("Rolamento 6000.")
+elif m_externa == 28 and m_interna == 12 and m_largura == 8:
+    print("Rolamento 6001.")
+elif m_externa == 32 and m_interna == 15 and m_largura == 9:
+    print("Rolamento 6002.")
+elif m_externa == 35 and m_interna == 17 and m_largura == 10:
+    print("Rolamento 6003.")
+elif m_externa == 42 and m_interna == 20 and m_largura == 12:
+    print("Rolamento 6004.")
+elif m_externa == 32 and m_interna == 12 and m_largura == 10:
+    print("Rolamento 6201.")
+elif m_externa == 35 and m_interna == 15 and m_largura == 11:
+    print("Rolamento 6202.")
+elif m_externa == 40 and m_interna == 17 and m_largura == 12:
+    print("Rolamento 6203.")  
+elif m_externa == 47 and m_interna == 20 and m_largura == 14:
+    print("Rolamento 6204.")
+elif m_externa == 52 and m_interna == 25 and m_largura == 15:
+    print("Rolamento 6205.") 
+elif m_externa == 62 and m_interna == 30 and m_largura == 16:
+    print("Rolamento 6206.")
+elif m_externa == 72 and m_interna == 35 and m_largura == 17:
+    print("Rolamento 6207.") 
+elif m_externa == 80 and m_interna == 40 and m_largura == 18:
+    print("Rolamento 6208.") 
+elif m_externa == 85 and m_interna == 45 and m_largura == 19:
+    print("Rolamento 6209.") 
+elif m_externa == 90 and m_interna == 50 and m_largura == 20:
+    print("Rolamento 6210.") 
+else:
+    print("Comando inválido.")
